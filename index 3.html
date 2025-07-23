@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hôtel de la Bretagne</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-image: url('https://source.unsplash.com/1600x600/?mountain,hotel');
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px #000;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+    }
+    nav {
+      background-color: #2c3e50;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✓ ";
+      color: green;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hôtel de la Bretagne</h1>
+</header>
+
+<nav>
+  <a href="#chambres">Chambres</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="chambres">
+  <h2>Nos chambres</h2>
+  <p>Chambres tout confort à seulement <strong>100€/nuit</strong>.</p>
+  <img src="https://source.unsplash.com/1000x600/?hotel-room" alt="Chambre d'hôtel">
+</section>
+
+<section class="section" id="services">
+  <h2>Nos services</h2>
+  <ul>
+    <li>WiFi haut débit gratuit</li>
+    <li>Restaurant avec spécialités locales</li>
+    <li>Vue imprenable sur la montagne</li>
+  </ul>
+  <img src="https://source.unsplash.com/1000x600/?restaurant,mountain" alt="Restaurant montagne">
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact & Réservations</h2>
+  <p>📍 Adresse : 9 rue Lagrange, Montagne</p>
+  <p>📧 Email : <a href="mailto:Corneth766@gmail.com">Corneth766@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Hôtel de la Bretagne — Tous droits réservés
+</footer>
+
+</body>
+</html>
